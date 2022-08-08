@@ -33,15 +33,21 @@ const product = {
   name: "testProduct",
   price: 10,
   description: "test description",
-  quantity: 0,
+  quantity: 10,
 };
 
 // Q5
-product.quantity = 7;
 
-console.log(`Total: ${product.quantity * product.price}`);
+console.log(`Total: ${7 * product.price}`);
 
 // Q6
-if (product.quantity * product.price > 100) {
+if (product.quantity * product.price < 100) {
+  console.log("false");
+} else {
   console.log("true");
 }
+
+// Q7
+
+product.quantity -= 7;
+console.log(product.quantity);
