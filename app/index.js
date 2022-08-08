@@ -70,3 +70,8 @@ const product = {
 product.quantity = 7;
 
 console.log(`Total: ${product.quantity * product.price}`);
+
+// Q6
+if (product.quantity * product.price > 100) {
+  console.log("true");
+}
