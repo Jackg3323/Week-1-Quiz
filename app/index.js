@@ -46,8 +46,14 @@ const customer = {
 };
 
 // Q2
-const address
+const address = {
+  street: "test lane",
+  city: "test city",
+  state: "test state",
+  zipCode: "test zip",
+};
 
-customer.address: address = {street:"test lane", city:"test city", state:"test state", zipCode:"test zip"}
+customer.address = address;
 
-
+// Q3
+console.log(`Welcome, ${customer.firstName} ${customer.lastName}!`);
