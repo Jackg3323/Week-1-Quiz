@@ -57,3 +57,16 @@ customer.address = address;
 
 // Q3
 console.log(`Welcome, ${customer.firstName} ${customer.lastName}!`);
+
+// Q4
+const product = {
+  name: "testProduct",
+  price: 10,
+  description: "test description",
+  quantity: 0,
+};
+
+// Q5
+product.quantity = 7;
+
+console.log(`Total: ${product.quantity * product.price}`);
