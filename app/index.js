@@ -44,3 +44,10 @@ const customer = {
   phoneNumber: "123456",
   Email: "test@google.com",
 };
+
+// Q2
+const address
+
+customer.address: address = {street:"test lane", city:"test city", state:"test state", zipCode:"test zip"}
+
+
